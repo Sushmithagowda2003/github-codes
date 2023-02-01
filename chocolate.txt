@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+     int i,x,y,T;
+      cout<<"enter the number of testcases"<<endl;
+      cin>>T;
+      if(T>=1&&T<=100)
+      {
+          for(i=1;i<=T;i++)
+          {
+              cout<<"Enter the prices of two chocolates"<<endl;
+              cin>>x,y;
+              if(x>=1&&y<=100)
+              if(x<y)
+              {
+                  cout<<"first chocolate is cheaper"<<endl;
+              }
+              else if(x>y)
+              {
+                  cout<<"second chocolate is cheaper"<<endl;
+              }
+              else if(x==y)
+              {
+                  cout<<"both are cheaper"<<endl;
+              }
+          }
+      }
+      return 0;
+}
+         

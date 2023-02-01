@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,vol,inc,dec,i,j;
+    cout<<"enter the no of testcases"<<endl;
+    cin>>i;
+    for(j=1;j<=i;j++)
+    {
+        vol=0;
+        cout<<"enter the current volume"<<endl;
+        cin>>vol;
+cout<<"enter 1 if you want to increase the volume, enter 2 to decrease"<<endl;
+cin>>n;
+if(n==1)
+{
+    cout<<"Increase the volume to what"<<endl;
+    cin>>inc;
+   cout<<"volume increased by "<<inc-vol<<endl;
+}
+else if(n==2)
+{
+cout<<"decrease the volume to what"<<endl;
+cin>>dec;
+cout<<"volume decreased by "<<vol-dec<<endl;
+}
+}
+}

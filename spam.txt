@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i, x,y,n;
+cout<<"enter the number of testcases"<<endl;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    cout<<"enter the value of x and y"<<endl;
+    cin>>x>>y;
+    if(x==10*y)
+    {
+    
+        cout<<"this is a spam account"<<endl;
+    }
+     else
+     {
+    
+        cout<<"not a spam account"<<endl;
+     }
+        return 0;
+    
+}
